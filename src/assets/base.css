@@ -1,0 +1,83 @@
+/* color palette from <https://github.com/vuejs/theme> */
+body {
+  transition: color 0.5s, "white" 0.5s;
+  line-height: 1.6;
+  /* font-family: museo-sans, sans-serif;
+  font-style: normal;
+  font-weight: 900; */
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* image-rendering: -webkit-optimize-contrast; */
+}
+a{
+  text-decoration: none;
+}
+img{
+  image-rendering: -webkit-optimize-contrast;
+}
+h1:first-letter, 
+h2:first-letter,
+h3:first-letter, 
+h4:first-letter, 
+h5:first-letter,
+h6:first-letter{
+  text-transform: uppercase;
+}
+
+h1{
+  z-index:1;
+  margin:0;
+  font-size: 40px;
+  font-family: raleway, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+h2{
+  margin:0;
+  font-size: 16px;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h3{
+  margin:0;
+  font-size: 12px;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h4{
+  margin:0;
+  font-size: 16px;
+  color: #333C46;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h5{
+  margin:0;
+  font-size: 33px;
+  color: #333C46;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h6{
+  margin:0;
+  font-size: 25px;
+  color: #333C46;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p{
+  margin:0;
+  font-size: 16px;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
